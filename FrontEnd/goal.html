@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Your Profile</title>
+  <link rel="stylesheet" href="css/goal.css">
+</head>
+<body>
+
+<div class="app">
+
+  <div class="status-bar">
+    <div class="points">⭐ Points: 0</div>
+    <div class="progress">
+      <div class="progress-fill"></div>
+    </div>
+  </div>
+
+  <h2 class="title">Complete Your Profile</h2>
+  <p class="subtitle">Finish these steps to unlock your dashboard</p>
+
+  <div class="task-card">
+    <h3>Basic Details <span>+20 pts</span></h3>
+
+    <input type="text" placeholder="Full Name">
+    <input type="number" placeholder="Age">
+    <input type="tel" placeholder="Phone Number">
+    <button onclick="validateBasicDetails()">Save Basic Details</button>
+
+  </div>
+  <div class="task-card">
+    <h3>Identity Details <span>+30 pts</span></h3>
+
+    <input type="text" placeholder="PAN Card Number">
+    <input type="text" placeholder="Aadhar Number">
+    <textarea placeholder="Address"></textarea>
+    <button onclick="validateIdentityDetails()">Save Identity Details</button>
+
+  </div>
+  <div class="task-card">
+    <h3>KYC Verification <span>+50 pts</span></h3>
+
+    <p class="kyc-text">
+      Complete KYC to verify your identity and unlock all features.
+    </p>
+
+<button class="secondary" onclick="goToLearn()">Start KYC</button>
+
+
+
+  </div>
+
+</div>
+<script src="js/goal.js"></script>
+
+
+</body>
+</html>

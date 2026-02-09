@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Pension System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- TOP NAV BAR -->
+<div class="top-nav">
+  <div class="nav-item" onclick="goToAbout()">About NPS</div>
+  <div class="nav-item" onclick="goToPredict()">Predict</div>
+
+  <div class="nav-item support-wrapper">
+    <span onclick="toggleSupport()">Support</span>
+
+    <div class="support-box" id="supportBox">
+      <p>📧 support@nps.com</p>
+      <p>📞 1800-000-000</p>
+      <p>🤖 AI Chat (Coming Soon)</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="app">
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>National Pension System</h1>
+    <p>Retirement planning made simple</p>
+  </header>
+
+  <!-- INFO CARDS -->
+  <section class="cards">
+    <div class="card">
+      <h3>🎯 Set Your Goal</h3>
+      <p>Decide how much you want at retirement.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔥 Build Streaks</h3>
+      <p>Invest monthly & maintain your streak.</p>
+    </div>
+
+    <div class="card">
+      <h3>📊 Track Growth</h3>
+      <p>Watch your future wealth grow live.</p>
+    </div>
+  </section>
+
+  <!-- ACTION BUTTONS -->
+  <section class="actions">
+    <button class="primary" onclick="start()">Get Started</button>
+    <button class="secondary" onclick="showLogin()">
+      I already have an account
+    </button>
+  </section>
+
+</div>
+
+<!-- LOGIN MODAL -->
+<div id="loginModal" class="modal">
+  <div class="modal-box">
+    <h2>Login</h2>
+
+    <label>Phone Number</label>
+    <input type="tel" id="loginPhone" placeholder="Enter phone number">
+
+    <label>Password</label>
+    <input type="password" id="loginPassword" placeholder="Enter password">
+
+    <button class="primary" onclick="login()">Login</button>
+
+    <p class="hint">OTP verification will be added later</p>
+    <p class="close" onclick="closeLogin()">Cancel</p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

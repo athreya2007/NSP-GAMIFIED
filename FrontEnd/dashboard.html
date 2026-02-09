@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPS Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="menu-icon" id="menuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-section">
+        <p class="menu-title">MENU</p>
+
+<div class="menu-item" onclick="goToAboutNPS()">
+  <span>ℹ️</span>
+  <p>About NPS</p>
+</div>
+
+<div class="menu-item" onclick="goToPredict()">
+  <span>📊</span>
+  <p>Predicting Goal</p>
+</div>
+
+
+      </div>
+
+      <div class="menu-section">
+        <p class="menu-title">SUPPORT</p>
+
+        <div class="menu-item small">
+          🤖 AI Chat (Coming Soon)
+        </div>
+
+        <div class="menu-item small">
+          📧 support@nps.com
+        </div>
+
+        <div class="menu-item small">
+          📞 1800-000-000
+        </div>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+      <div></div>
+
+      <div class="streak-profile">
+        <div class="streak">🔥 5 months</div>
+
+        <div class="profile-container">
+          <div class="profile" id="profileBtn">👤</div>
+
+          <div class="profile-menu" id="profileMenu">
+            <p onclick="goToGoal()">🎯 Set Goal</p>
+            <p onclick="logout()">🚪 Logout</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <section class="content">
+
+      <!-- STATS -->
+      <div class="stats">
+        <div class="stat-card">
+          <p>Total Invested</p>
+          <h3>₹3,50,000</h3>
+        </div>
+
+        <div class="stat-card">
+          <p>Remaining to Goal</p>
+          <h3>₹6,50,000</h3>
+        </div>
+      </div>
+
+      <!-- PIE -->
+      <div class="card center">
+        <h3>Goal Progress</h3>
+
+        <div class="pie">
+          <div class="pie-inner">35%</div>
+        </div>
+
+        <p class="small-text">35% of your retirement goal completed</p>
+      </div>
+
+      <!-- UPDATES -->
+      <div class="card">
+        <h3>Latest Updates</h3>
+        <ul class="updates">
+          <li>📢 NPS interest rates updated</li>
+          <li>📢 Tier I tax benefits under Section 80C</li>
+          <li>📢 Digital onboarding introduced</li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>

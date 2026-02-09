@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn About NPS</title>
+  <link rel="stylesheet" href="css/learn.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h2>About National Pension System</h2>
+  <p class="desc">
+    National Pension System (NPS) is a government-backed retirement
+    savings scheme designed to provide financial security after retirement.
+  </p>
+
+  <h3>Who Can Apply?</h3>
+  <ul class="list">
+    <li>Indian citizens aged 18–60 years</li>
+    <li>Salaried or self-employed individuals</li>
+    <li>Anyone planning long-term retirement savings</li>
+  </ul>
+
+  <h3>Choose Your Account Type</h3>
+
+  <!-- TIER I -->
+  <div class="tier-card">
+    <h4>Tier I Account (Mandatory)</h4>
+    <p>
+      A long-term retirement account with tax benefits and a lock-in period
+      until the age of 60.
+    </p>
+    <ul>
+      <li>✔ Tax benefits available</li>
+      <li>✔ Lock-in till retirement</li>
+      <li>❌ No frequent withdrawals</li>
+    </ul>
+    <button onclick="selectTier('Tier I')">Choose Tier I</button>
+  </div>
+
+  <!-- TIER II -->
+  <div class="tier-card">
+    <h4>Tier II Account (Optional)</h4>
+    <p>
+      A voluntary savings account for short-term goals with no lock-in
+      and unrestricted withdrawals.
+    </p>
+    <ul>
+      <li>✔ Flexible withdrawals</li>
+      <li>✔ No lock-in period</li>
+      <li>❌ No tax benefits</li>
+    </ul>
+    <button class="secondary" onclick="selectTier('Tier II')">Choose Tier II</button>
+  </div>
+
+</div>
+
+<script src="js/learn.js"></script>
+</body>
+</html>

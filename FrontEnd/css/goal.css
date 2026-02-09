@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f6f8;
+}
+
+/* APP CONTAINER */
+.app {
+  max-width: 420px;
+  margin: auto;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* STATUS BAR */
+.status-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.points {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* PROGRESS BAR */
+.progress {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: #1e88e5;
+}
+
+/* HEADINGS */
+.title {
+  margin: 10px 0 5px;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 14px;
+}
+
+/* TASK CARDS */
+.task-card {
+  background: white;
+  padding: 18px;
+  border-radius: 14px;
+  margin-top: 20px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.task-card h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.task-card span {
+  font-size: 13px;
+  color: #1e88e5;
+}
+
+/* INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* KYC TEXT */
+.kyc-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+/* BUTTON */
+button.secondary {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #e3f2fd;
+  color: #1e88e5;
+  font-size: 15px;
+}
+
+/* DESKTOP SUPPORT */
+@media (min-width: 768px) {
+  .app {
+    max-width: 600px;
+  }
+}
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+button {
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;  }
