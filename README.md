@@ -77,6 +77,5 @@ All investment projections shown are **educational estimates** and not financial
 
 ---
 
-## 🔗 Useful Links
-- Official NPS Website: https://npstrust.org.in  
-- NPS Returns Snapshot: https://npstrust.org.in/weekly-snapshot-nps-schemes
+## 🔗 Demo 
+Link - https://resilient-pothos-ee301e.netlify.app/
