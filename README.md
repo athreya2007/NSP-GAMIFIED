@@ -9,7 +9,7 @@ The platform focuses on reducing onboarding friction, improving financial litera
 ---
 
 ## 🎯 Problem Statement
-Young workers often find pension and retirement planning complex, boring, and difficult to start. Traditional NPS platforms are form-heavy and lack engagement, leading to low awareness and delayed participation.
+Design a gamified platform to increase awareness, engagement, and motivation among young workers regarding NPS contributions and pension benefits.
 
 ---
 
@@ -20,16 +20,6 @@ We built an interactive prototype that:
 - Explains NPS Tier I and Tier II in a simple way
 - Shows real-time retirement corpus predictions using compounding graphs
 - Encourages informed and consistent financial planning
-
----
-
-## ✨ Key Features
-- **Guided Onboarding Flow** – task-based data collection instead of long forms  
-- **Gamified Experience** – points, progress indicators, and investment streaks  
-- **Smart Dashboard** – total invested, remaining goal, progress visualization, and updates  
-- **Prediction Engine** – real-time line graph showing money growth vs time (years)  
-- **Educational Content** – clear explanation of NPS, Tier I vs Tier II  
-- **Mobile-First Design** – tap-based navigation, responsive UI  
 
 ---
 
@@ -67,15 +57,6 @@ We built an interactive prototype that:
 
 ---
 
-## 🏁 Hackathon Context
-This project was developed as a **functional frontend prototype** during a hackathon to demonstrate concept viability, user engagement, and scalability. Backend and AI integrations are planned for future iterations.
-
----
-
-## 📄 Disclaimer
-All investment projections shown are **educational estimates** and not financial advice. Users are encouraged to refer to official NPS sources for accurate and up-to-date information.
-
----
 
 ## 🔗 Demo 
 Link - https://resilient-pothos-ee301e.netlify.app/
