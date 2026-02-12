@@ -1,7 +1,7 @@
 # Gamified NPS Engagement Platform
 
 ## 📌 Overview
-This project is a **mobile-first, gamified web platform** designed to improve awareness, engagement, and participation of young and early-career individuals in the **National Pension System (NPS)**.  
+This project is a ** gamified web platform** designed to improve awareness, engagement, and participation of young and early-career individuals in the **National Pension System (NPS)**.  
 It simplifies retirement planning using interactive onboarding, visual dashboards, and real-time investment predictions.
 
 The platform focuses on reducing onboarding friction, improving financial literacy, and motivating consistent investing behavior through gamification.
